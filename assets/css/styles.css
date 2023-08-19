@@ -1,0 +1,38 @@
+* {
+  font-family: "Capriola", sans-serif;
+  font-size: 60%;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(29, 52, 97, 1);
+}
+
+header img {
+  padding: 0.5rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+header nav ul {
+  display: inline-flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.hover:hover {
+  font-size: 2.5rem;
+}
+
+header nav li {
+  padding: 1.5rem;
+  color: lightgray;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
