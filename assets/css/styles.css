@@ -3,9 +3,16 @@
   font-size: 60%;
 }
 
+:root {
+  --saffron: rgba(238, 198, 67, 1);
+  --antiflash-white: rgba(238, 240, 242, 1);
+  --zaffre: rgba(13, 33, 161, 1);
+  --paynes-gray: rgba(102, 113, 126, 1);
+}
+
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(13, 33, 161, 1);
   color: rgba(238, 240, 242, 1);
@@ -13,8 +20,9 @@ header {
 
 header nav ul {
   display: inline-flex;
+  flex-wrap: wrap;
   list-style: none;
-  gap: 10px;
+  gap: 0.7rem;
   color: rgba(238, 240, 242, 1);
 }
 
@@ -38,25 +46,26 @@ h1 {
 }
 
 h2 {
-  text-align: left;
+  text-align: center;
   font-size: 3rem;
   border-bottom: 1px solid black;
   padding-bottom: 0.3rem;
 }
 
 body {
-  background-color: rgba(102, 113, 126, 1);
+  background-color: black;
 }
 
 .about-me {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   text-align: left;
   font-size: 1rem;
-  max-width: 60%;
   padding: 2rem;
   gap: 3rem;
   border: 0.2rem solid rgba(13, 33, 161, 1);
+  color: #999950;
 }
 
 .about-me img {
@@ -67,6 +76,10 @@ body {
 
 p {
   padding: 0.3rem;
+}
+
+br {
+  background-color: rgba(13, 33, 161, 1);
 }
 
 /* Colors Used
